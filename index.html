@@ -16,7 +16,7 @@
 </head>
 <body>
 
-	<form id="two" action="..." method="post">
+	<form id="two" action="http://httpbin.org/post" method="post">
 		<fieldset id="personal">
 			<legend>INFORMAÇÕES PESSOAIS</legend>
 			<label for="name">Nome : </label> 
@@ -81,6 +81,7 @@
 		</fieldset>
 		
 		<p>
+			<input type="hidden" name="hidden_value" value="univas">
 			<input id="button1" type="submit" value="Enviar" /> 
 			<input id="button2" type="reset" />
 		</p>
